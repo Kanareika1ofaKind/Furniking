@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furniking</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+
+</head>
+<body>
+<header class="header">
+    <div class="header__nav">
+        <div class="container header-container">
+            <p>Welcome to our online shop</p>
+            <div class="header-auth">
+                <select class="value" name="" id="">
+                    <option value="">English(USD)</option>
+                    <option>British(B£)</option>
+                    <option>EURO(EUR)</option>
+                    <option>RUSSIAN(RUB)</option>
+                </select>
+                <a href="#" class="header-auth-user">Login or Sign up</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header__sub">
+            <div class="col-3">
+                <a href="#">
+                    <img src="./images/Logo.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="col-6">
+                <div class="form">
+                    <div class="search">
+                        <input type="text" class="search_bar" placeholder="Search here">
+                        <button type="submit" class="search_btn">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="header-icons">
+                    <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                    <a href="#"><i class='bx bx-bell'></i></a>
+                    <a href="#"><i class='bx bx-user'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="burger-collection">
+                        <div class="burger_icon">
+                            <span><i class='bx bx-menu-alt-left'></i></span>
+                        </div>
+                        <a href="#" class="">ALL COLLECTIONS</a>
+                    </div>
+                </div>
+                <nav class="col-9">
+                    <ul class="menu_link">
+                        <li class="menu_link-items"><a href="#">Home</a></li>
+                        <li class="menu_link-items"><a href="#">Shop</a></li>
+                        <li class="menu_link-items"><a href="#">Blog</a></li>
+                        <li class="menu_link-items"><a href="#">About</a></li>
+                        <li class="menu_link-items"><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="hero" id="hero">
+    <div class="container hero-container">
+        <div class="row">
+            <div class="col-3">
+                <ul class="hero__list">
+                    <li class="hero__list--link">
+                        <a href="#">All</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">New Arrivals</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Hot Sale</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Furniture</a>
+                    </li>
+                    <li class="hero__list--link">
+                        Armchair
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Table</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Chair</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Sofa</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Mirrors</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Stools</a>
+                    </li>
+                    <li class="hero__list--link">
+                        <a href="#">Benches</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9">
+                <div class="row hero-items">
+                    <div class="col-5">
+                        <h5 class="hero__year">TOP COLLECTIONS 2022</h5>
+                        <h1>We Serve You<br> Dream Furniture</h1>
+                        <p class="hero__discount">Get 50% off all products</p>
+                        <button class="hero__btn">SHOP NOW</button>
+                    </div>
+                    <div class="col-4">
+                        <img src="./images/armchair-blue.png" alt="Armchair furniture">
+                    </div>
+                    <div class="col-3">
+                        <div class="hero__img--vertical">
+                            <img src="./images/combo.png" alt="chair">
+                            <img src="./images/combo2.png" alt="chair">
+                            <img src="./images/combo3.jpg" alt="chair">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feature" id="feature">
+    <div class="container feature-container">
+        <div class="feature__list">
+            <img src="./images/free-delivery.png" alt="Delivery Truck">
+            <div class="feature__content">
+                <h3 class="feature__title">Free Shipping</h3>
+                <p class="feature__desc">Orders over $100</p>
+            </div>
+        </div>
+        <div class="feature__list">
+            <img src="./images/Present-BOX.png" alt="Box">
+            <div class="feature__content">
+                <h3 class="feature__title">Smart Gift Card</h3>
+                <p class="feature__desc">Buy $1000 to get the card</p>
+            </div>
+        </div>
+        <div class="feature__list">
+            <img src="./images/Wallet.png" alt="Delivery Truck">
+            <div class="feature__content">
+                <h3 class="feature__title">Quick Payment</h3>
+                <p class="feature__desc">100% Secure Payment</p>
+            </div>
+        </div>
+        <div class="feature__list">
+            <img src="./images/Headphone.png" alt="Headphone">
+            <div class="feature__content">
+                <h3 class="feature__title">24/7 Support</h3>
+                <p class="feature__desc">Quick support</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="collection" id="collection">
+    <div class="container collection-container">
+        <div class="row collection-row">
+            <div class="col-7 collection-left">
+                <div class="collection-offer">
+                    <img src="./images/hallway.png" alt="Furniture">
+                    <h4 class="collection-title">Modern Furniture Collections</h4>
+                    <p class="collection-desc">Starting from $500</p>
+                    <button class="collection-btn">Read more &rarr;</button>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="collection-offer collection__offer-small">
+                    <img src="./images/wall-decor.png" alt="wall decoration">
+                    <div class="collection-top">
+                        <h4 class="collection-title">Geometric Bookcase</h4>
+                        <p class="collection-desc">Up to 20% discount</p>
+                        <button class="collection-btn">Read more &rarr;</button>
+                    </div>
+                </div>
+                <div class="collection-offer collection__offer-small">
+                    <img src="./images/hallway2.png" alt="Furniture">
+                    <div class="collection-bottom">
+                        <h4 class="collection-title">Minimal Sofa Collections</h4>
+                        <p class="collection-desc">Sale up to 40% discount</p>
+                        <button class="collection-btn">Read more &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="trending" id="trending">
+    <div class="container">
+        <h2 class="section-title">TRENDING</h2>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <img src="./images/seat-beige.png" alt="furniture">
+                        <span class="product__label product__label--new">New</span>
+                        <div class="product__overlay">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-shopping-bag'></i>
+                            <i class='bx bx-refresh'></i>
+                            <i class='bx bx-bullseye'></i>
+                        </div>
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Minimal LCD chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$180</span>
+                            <span class="product__price-old">$250</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--new">New</span>
+                        <img src="./images/seat-grey.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Minimal iconic chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$120</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/guest-seat.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Dining chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$100</span>
+                            <span class="product__price-old">$120</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/seat-orange.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Buskbo armchair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$130</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/seat-green.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Modern armchair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$100</span>
+                            <span class="product__price-old">$120</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/seat-gloss.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Plastic dinning chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$130</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--new">New</span>
+                        <img src="./images/seat-visitor.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Minimal wood chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$180</span>
+                            <span class="product__price-old">$250</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--new">New</span>
+                        <img src="./images/summer-seat.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Elegant wood chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$120</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="offer">
+    <div class="container special__offer--contain">
+        <h2 class="section-title">SPECIAL OFFER</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="special__offer--left">
+                    <span class="special__offer--label special__offer--discount">40% off</span>
+                    <img src="./images/office-seat.png" alt="Office-furniture">
+                    <div class="special__offer--items">
+                        <h3 class="special__offer-title">Living Room Furniture</h3>
+                        <p class="special__offer--desc">You don't have a chair. Are you ready for growth? Shop with us
+                            40% discount!</p>
+                        <div>
+                            <span class="special__offer--new">$150</span>
+                            <span class="special__offer--old">$250</span>
+                            <button class="hero__btn" type="button">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="special__offer--right">
+                    <span class="special__offer--label special__offer--discount">50% off</span>
+                    <img src="./images/gazebo-seat.png" alt="Gazebo-bench">
+                    <div class="special__offer--items">
+                        <h3 class="special__offer-title">Modern Chair</h3>
+                        <p class="special__offer--desc">Hot chairs of the modern era are now available in our stock.</p>
+                        <div>
+                            <span class="special__offer--new">$75</span>
+                            <span class="special__offer--old">$150</span>
+                            <button class="hero__btn" type="button">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="products">
+    <div class="container">
+        <h2 class="section-title">OUR PRODUCTS</h2>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/rest-chair.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Minimal LCD chair</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$180</span>
+                            <span class="product__price-old">$250</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--new">New</span>
+                        <img src="./images/loveseat.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">SOFA</h4>
+                    <h3 class="product__title">Modern Sofa</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$120</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--discount">-30%</span>
+                        <img src="./images/livingroom.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">SOFA</h4>
+                    <h3 class="product__title">Microfiber Sofa</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$130</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/coffeetable.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">TABLE</h4>
+                    <h3 class="product__title">Wood Coffee Table</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$100</span>
+                            <span class="product__price-old">$120</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--discount">-30%</span>
+                        <img src="./images/backyard.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">CHAIR</h4>
+                    <h3 class="product__title">Acacia Wood Club Chairs</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$100</span>
+                            <span class="product__price-old">$120</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--sale">Sale</span>
+                        <img src="./images/front-deck.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">BENCH</h4>
+                    <h3 class="product__title">Amalia Cowhide Bench</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$130</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--new">New</span>
+                        <img src="./images/easy-chair.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">STORAGE</h4>
+                    <h3 class="product__title">Juno-Hinged Lid Storage</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$180</span>
+                            <span class="product__price-old">$250</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product">
+                    <div class="product__image">
+                        <span class="product__label product__label--new">New</span>
+                        <img src="./images/guess-room.png" alt="furniture">
+                    </div>
+                    <h4 class="product__category">FURNITURE</h4>
+                    <h3 class="product__title">Delicia 3 Piece Living Room</h3>
+                    <div class="d-flex justify-content-between">
+                        <div class="product__price">
+                            <span class="product__price-new">$120</span>
+                            <span class="product__price-old">$150</span>
+                        </div>
+                        <div class="product__rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="customer"></section>
+<section class="articles">
+    <div class="container">
+        <h2 class="section-title">OUR LATEST ARTICLES</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="article__beginner">Beginner guide buying minimal sofa </h3>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="article__office">Buying best minimal computer table</h3>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="article__backyard">How to choose the best modern bench</h3>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="article__summer">Best summer outfit style in this country</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+
+</footer>
+
+</body>
+</html>
